@@ -1,6 +1,5 @@
 #统计8月迭代
 #新增图表发布功能
-print "helloworld--演示使用"
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentSubmission>
   <Action value="New"/>
