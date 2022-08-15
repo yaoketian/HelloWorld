@@ -1,0 +1,36 @@
+#统计8月迭代
+#新增图表发布功能
+print "helloworld--演示使用"
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentSubmission>
+  <Action value="New"/>
+  <ContentDescriptor>
+    <ContentType>midlet</ContentType>
+    <EditionName>Stock Ticker - color</EditionName>
+    <Version>1.0</Version>
+    <Capability name="bitsperpixel" value="8"/>
+    <Capability name="ccppaccept-language" value="en_US"/>
+    <Capability name="colorcapable" value="yes"/>
+    <Capability name="deliverytype" value="OTA"/>
+  </ContentDescriptor>
+  <WebDescriptor>
+    <Category>Home:Business:Finance</Category>
+    <Category>Home:Business:Tools</Category>
+    <InfoURL>http://www.stockticker.com</InfoURL>
+    <WebGroup>
+      <DisplayName>Stock Ticker</DisplayName>
+      <ShortDescription>Get the latest stock quotes</ShortDescription>
+      <LongDescription>
+        Let Stock Ticker watch the market while you get on with your
+        life. Get the latest stock quotes, personalize your portfolio,
+        and set alarms on stock values.
+     </LongDescription> 
+     <DeviceIcon src="/graphics/deviceicon.gif"/> 
+     <SmallIcon src="/graphics/smallicon.gif"/> 
+     <LargeIcon src="/graphics/largeicon.gif"/> 
+     <UserGuide src="/docs/userguide.pdf"/>  
+     <ScreenShot src="/graphics/screen1.jpg"/>
+     <ScreenShot src="/graphics/screen2.jpg"/>
+    </WebGroup>
+  </WebDescriptor>
+</ContentSubmission>
